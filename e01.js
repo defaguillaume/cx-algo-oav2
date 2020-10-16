@@ -18,7 +18,7 @@ INITIAL ARRAY -> [FUNCTION] -> NEW ARRAY
 var arr = [29,-1,44,-3,7,13,0,-9,53,-4,24,56,27,-6,43,-5,5,38,59,1]
 
 function bubble(arr) {
-    const swap = (list, a, b) => [list[a], list[b]] = [list[b], list[a]];
+    const swap = (list, a, b) => [list[a], list[b]] = [list[b], list[a]];// 
   
     for (let i = arr.length; i > 0; i--) {
       for (let j = 0; j < i - 1; j++) {
