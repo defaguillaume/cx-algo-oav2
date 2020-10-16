@@ -15,7 +15,7 @@ The goal of this exercise is to make a program that sorts a list using bubble so
 INITIAL ARRAY -> [FUNCTION] -> NEW ARRAY
 */
 
-var arr = [29,-1,44,-3,7,13,0,-9,53,-4,24,56,27,-6,43,-5,5,38,59,1]
+var arr = [43,9,44,24,32,13,8,-11,46,14,55,21,33,23,1,18,37,0,-17,-20]
 
 function bubble(arr) {
     const swap = (list, a, b) => [list[a], list[b]] = [list[b], list[a]];
